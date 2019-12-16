@@ -17,14 +17,14 @@ module.exports = {
     new webpack.optimize.LimitChunkCountPlugin({
       maxChunks: 1
     })
-  ],
-  optimization: {
-    namedChunks: true,
-    mergeDuplicateChunks: false,
-    // minimize: false
-    runtimeChunk: {
-      name: "main"
-    }
-    // runtimeChunk: "single"
-  }
+  ]
+  // optimization: {
+  //   namedChunks: true,
+  //   mergeDuplicateChunks: false,
+  // minimize: false
+  // runtimeChunk: {
+  //   name: "main"
+  // }
+  // runtimeChunk: "single"
+  // }
 };
